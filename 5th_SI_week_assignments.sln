@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTypes", "MathTypes\MathTypes.csproj", "{409EF296-87D3-471F-9729-FB0EA4E04368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceHost", "MathServiceHost\MathServiceHost.csproj", "{3720249D-FF5B-49B5-975D-8EBD5095D355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClient", "MathClient\MathClient.csproj", "{11D12C60-C749-456A-8A80-3F54FAF69DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF Hands-on Getting started", "WCF Hands-on Getting started", "{63508815-85FA-4892-9762-405290FE059C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "WCF Hands-on Getting started\Client\Client.csproj", "{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "WCF Hands-on Getting started\DerivativesCalculator\Host.csproj", "{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerivativesCalculatorService", "WCF Hands-on Getting started\DerivativesCalculatorService\DerivativesCalculatorService.csproj", "{96ADB19A-DAEC-4636-A86C-4BF93C596330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409EF296-87D3-471F-9729-FB0EA4E04368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409EF296-87D3-471F-9729-FB0EA4E04368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409EF296-87D3-471F-9729-FB0EA4E04368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409EF296-87D3-471F-9729-FB0EA4E04368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3720249D-FF5B-49B5-975D-8EBD5095D355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3720249D-FF5B-49B5-975D-8EBD5095D355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3720249D-FF5B-49B5-975D-8EBD5095D355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3720249D-FF5B-49B5-975D-8EBD5095D355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D12C60-C749-456A-8A80-3F54FAF69DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D12C60-C749-456A-8A80-3F54FAF69DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D12C60-C749-456A-8A80-3F54FAF69DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D12C60-C749-456A-8A80-3F54FAF69DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96ADB19A-DAEC-4636-A86C-4BF93C596330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96ADB19A-DAEC-4636-A86C-4BF93C596330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96ADB19A-DAEC-4636-A86C-4BF93C596330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96ADB19A-DAEC-4636-A86C-4BF93C596330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF51A626-FBE4-4D52-9114-CA3C07FC5DCA} = {63508815-85FA-4892-9762-405290FE059C}
+		{2BDF79F4-970D-41D7-BD2D-3E15DC67EA69} = {63508815-85FA-4892-9762-405290FE059C}
+		{96ADB19A-DAEC-4636-A86C-4BF93C596330} = {63508815-85FA-4892-9762-405290FE059C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DF1A0D5-C0C2-4977-AB68-58F1C5A8A7D0}
+	EndGlobalSection
+EndGlobal
